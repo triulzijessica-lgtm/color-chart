@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Rainbow Color Swatches Ring -->
+    <path
+        android:fillColor="#E62E5C"
+        android:pathData="M54,26m-4.5,0a4.5,4.5 0 1,1 9,0a4.5,4.5 0 1,1 -9,0" />
+    <path
+        android:fillColor="#FF7043"
+        android:pathData="M73,34m-4.5,0a4.5,4.5 0 1,1 9,0a4.5,4.5 0 1,1 -9,0" />
+    <path
+        android:fillColor="#FFCA28"
+        android:pathData="M81,54m-4.5,0a4.5,4.5 0 1,1 9,0a4.5,4.5 0 1,1 -9,0" />
+    <path
+        android:fillColor="#26A69A"
+        android:pathData="M73,74m-4.5,0a4.5,4.5 0 1,1 9,0a4.5,4.5 0 1,1 -9,0" />
+    <path
+        android:fillColor="#00B4D8"
+        android:pathData="M54,82m-4.5,0a4.5,4.5 0 1,1 9,0a4.5,4.5 0 1,1 -9,0" />
+    <path
+        android:fillColor="#3F51B5"
+        android:pathData="M35,74m-4.5,0a4.5,4.5 0 1,1 9,0a4.5,4.5 0 1,1 -9,0" />
+    <path
+        android:fillColor="#9C27B0"
+        android:pathData="M27,54m-4.5,0a4.5,4.5 0 1,1 9,0a4.5,4.5 0 1,1 -9,0" />
+    <path
+        android:fillColor="#EC407A"
+        android:pathData="M35,34m-4.5,0a4.5,4.5 0 1,1 9,0a4.5,4.5 0 1,1 -9,0" />
+
+    <!-- Twinmarker Pen rotated 45 degrees -->
+    <group
+        android:pivotX="54"
+        android:pivotY="54"
+        android:rotation="-45">
+        
+        <!-- Drop Shadow under marker -->
+        <path
+            android:fillColor="#33000000"
+            android:pathData="M52.5,36 h7 v38 h-7 z" />
+
+        <!-- Marker Barrel (White / Crisp Cream) -->
+        <path
+            android:fillColor="#FAFAFA"
+            android:pathData="M50.5,35 h7 v38 h-7 z" />
+
+        <!-- Barrel 3D Highlight -->
+        <path
+            android:fillColor="#FFFFFF"
+            android:pathData="M51.5,35 h1.8 v38 h-1.8 z" />
+
+        <!-- Center Metallic Ring -->
+        <path
+            android:fillColor="#FFB300"
+            android:pathData="M49.5,52 h9 v4 h-9 z" />
+
+        <!-- Top Neck (Alcohol side) -->
+        <path
+            android:fillColor="#E0E0E0"
+            android:pathData="M50.5,35 L52,28 h4 L57.5,35 z" />
+
+        <!-- Top Chisel Nib (DecoTime Ruby Alcohol Red) -->
+        <path
+            android:fillColor="#BE2846"
+            android:pathData="M52,28 L51.2,21.5 L56.8,23.5 L56,28 z" />
+
+        <!-- Bottom Neck (Aqua side) -->
+        <path
+            android:fillColor="#E0E0E0"
+            android:pathData="M50.5,73 L52,80 h4 L57.5,73 z" />
+
+        <!-- Bottom Brush Nib (Aquamarker Cyan Blue) -->
+        <path
+            android:fillColor="#0098A6"
+            android:pathData="M52,80 Q54,87.5 54,87.5 Q54,87.5 56,80 z" />
+    </group>
+
+    <!-- Sparkle highlight star -->
+    <path
+        android:fillColor="#FFF"
+        android:pathData="M78,28 Q81,28 81,25 Q81,28 84,28 Q81,28 81,31 Q81,28 78,28 z" />
+
+</vector>

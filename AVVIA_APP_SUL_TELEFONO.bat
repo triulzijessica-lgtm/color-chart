@@ -1,0 +1,2 @@
+@echo off
+call "%~dp0AVVIA_SERVER_SINCRONIZZAZIONE_WIFI.bat"

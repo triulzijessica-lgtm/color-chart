@@ -1,0 +1,2850 @@
+{
+  "lastUpdated": "2026-11-13T21:37:19.528Z",
+  "inventory": {
+    "10": {
+      "al": false,
+      "ac": false,
+      "notes": ""
+    },
+    "11": {
+      "al": true,
+      "ac": false,
+      "notes": ""
+    },
+    "12": {
+      "al": true,
+      "ac": true,
+      "notes": ""
+    },
+    "13": {
+      "al": true,
+      "ac": false,
+      "notes": ""
+    },
+    "14": {
+      "al": false,
+      "ac": false,
+      "notes": ""
+    },
+    "15": {
+      "al": false,
+      "ac": true,
+      "notes": ""
+    },
+    "16": {
+      "al": true,
+      "ac": false,
+      "notes": ""
+    },
+    "17": {
+      "al": false,
+      "ac": false,
+      "notes": ""
+    },
+    "18": {
+      "al": true,
+      "ac": true,
+      "notes": ""
+    },
+    "19": {
+      "al": true,
+      "ac": false,
+      "notes": ""
+    },
+    "20": {
+      "al": true,
+      "ac": false,
+      "notes": ""
+    },
+    "21": {
+      "al": false,
+      "ac": true,
+      "notes": ""
+    },
+    "22": {
+      "al": true,
+      "ac": false,
+      "notes": ""
+    },
+    "23": {
+      "al": true,
+      "ac": true,
+      "notes": ""
+    },
+    "24": {
+      "al": true,
+      "ac": true,
+      "notes": ""
+    },
+    "25": {
+      "al": false,
+      "ac": true,
+      "notes": ""
+    },
+    "26": {
+      "al": true,
+      "ac": false,
+      "notes": ""
+    },
+    "27": {
+      "al": false,
+      "ac": false,
+      "notes": ""
+    },
+    "28": {
+      "al": true,
+      "ac": false,
+      "notes": ""
+    },
+    "29": {
+      "al": false,
+      "ac": false,
+      "notes": ""
+    },
+    "30": {
+      "al": true,
+      "ac": true,
+      "notes": ""
+    },
+    "31": {
+      "al": true,
+      "ac": true,
+      "notes": ""
+    },
+    "32": {
+      "al": true,
+      "ac": true,
+      "notes": ""
+    },
+    "33": {
+      "al": false,
+      "ac": false,
+      "notes": ""
+    },
+    "34": {
+      "al": true,
+      "ac": false,
+      "notes": ""
+    },
+    "35": {
+      "al": false,
+      "ac": true,
+      "notes": ""
+    },
+    "36": {
+      "al": true,
+      "ac": true,
+      "notes": ""
+    },
+    "37": {
+      "al": false,
+      "ac": true,
+      "notes": ""
+    },
+    "38": {
+      "al": true,
+      "ac": false,
+      "notes": ""
+    },
+    "39": {
+      "al": true,
+      "ac": false,
+      "notes": ""
+    },
+    "40": {
+      "al": true,
+      "ac": false,
+      "notes": ""
+    },
+    "41": {
+      "al": false,
+      "ac": false,
+      "notes": ""
+    },
+    "42": {
+      "al": true,
+      "ac": false,
+      "notes": ""
+    },
+    "43": {
+      "al": true,
+      "ac": false,
+      "notes": ""
+    },
+    "44": {
+      "al": true,
+      "ac": true,
+      "notes": ""
+    },
+    "45": {
+      "al": true,
+      "ac": false,
+      "notes": ""
+    },
+    "46": {
+      "al": true,
+      "ac": false,
+      "notes": ""
+    },
+    "47": {
+      "al": true,
+      "ac": true,
+      "notes": ""
+    },
+    "48": {
+      "al": false,
+      "ac": false,
+      "notes": ""
+    },
+    "49": {
+      "al": true,
+      "ac": false,
+      "notes": ""
+    },
+    "50": {
+      "al": true,
+      "ac": false,
+      "notes": ""
+    },
+    "51": {
+      "al": false,
+      "ac": true,
+      "notes": ""
+    },
+    "52": {
+      "al": false,
+      "ac": true,
+      "notes": ""
+    },
+    "53": {
+      "al": true,
+      "ac": false,
+      "notes": ""
+    },
+    "54": {
+      "al": false,
+      "ac": false,
+      "notes": ""
+    },
+    "55": {
+      "al": true,
+      "ac": false,
+      "notes": ""
+    },
+    "56": {
+      "al": true,
+      "ac": true,
+      "notes": ""
+    },
+    "57": {
+      "al": true,
+      "ac": false,
+      "notes": ""
+    },
+    "58": {
+      "al": true,
+      "ac": true,
+      "notes": ""
+    },
+    "59": {
+      "al": true,
+      "ac": true,
+      "notes": ""
+    },
+    "60": {
+      "al": true,
+      "ac": true,
+      "notes": ""
+    },
+    "61": {
+      "al": false,
+      "ac": true,
+      "notes": ""
+    },
+    "62": {
+      "al": true,
+      "ac": true,
+      "notes": ""
+    },
+    "63": {
+      "al": true,
+      "ac": false,
+      "notes": ""
+    },
+    "64": {
+      "al": true,
+      "ac": false,
+      "notes": ""
+    },
+    "65": {
+      "al": true,
+      "ac": false,
+      "notes": ""
+    },
+    "66": {
+      "al": true,
+      "ac": false,
+      "notes": ""
+    },
+    "67": {
+      "al": true,
+      "ac": false,
+      "notes": ""
+    },
+    "68": {
+      "al": true,
+      "ac": false,
+      "notes": ""
+    },
+    "69": {
+      "al": true,
+      "ac": false,
+      "notes": ""
+    },
+    "70": {
+      "al": true,
+      "ac": true,
+      "notes": ""
+    },
+    "71": {
+      "al": true,
+      "ac": false,
+      "notes": ""
+    },
+    "72": {
+      "al": true,
+      "ac": true,
+      "notes": ""
+    },
+    "73": {
+      "al": true,
+      "ac": true,
+      "notes": ""
+    },
+    "74": {
+      "al": false,
+      "ac": true,
+      "notes": ""
+    },
+    "75": {
+      "al": false,
+      "ac": false,
+      "notes": ""
+    },
+    "76": {
+      "al": true,
+      "ac": true,
+      "notes": ""
+    },
+    "77": {
+      "al": true,
+      "ac": false,
+      "notes": ""
+    },
+    "78": {
+      "al": true,
+      "ac": true,
+      "notes": ""
+    },
+    "79": {
+      "al": true,
+      "ac": false,
+      "notes": ""
+    },
+    "80": {
+      "al": true,
+      "ac": false,
+      "notes": ""
+    },
+    "81": {
+      "al": true,
+      "ac": true,
+      "notes": ""
+    },
+    "82": {
+      "al": true,
+      "ac": true,
+      "notes": ""
+    },
+    "83": {
+      "al": true,
+      "ac": true,
+      "notes": ""
+    },
+    "84": {
+      "al": false,
+      "ac": false,
+      "notes": ""
+    },
+    "85": {
+      "al": true,
+      "ac": true,
+      "notes": ""
+    },
+    "86": {
+      "al": false,
+      "ac": false,
+      "notes": ""
+    },
+    "87": {
+      "al": false,
+      "ac": false,
+      "notes": ""
+    },
+    "88": {
+      "al": true,
+      "ac": true,
+      "notes": ""
+    },
+    "89": {
+      "al": false,
+      "ac": false,
+      "notes": ""
+    },
+    "90": {
+      "al": false,
+      "ac": false,
+      "notes": ""
+    },
+    "91": {
+      "al": true,
+      "ac": true,
+      "notes": ""
+    },
+    "92": {
+      "al": true,
+      "ac": true,
+      "notes": ""
+    },
+    "93": {
+      "al": true,
+      "ac": true,
+      "notes": ""
+    },
+    "94": {
+      "al": true,
+      "ac": false,
+      "notes": ""
+    },
+    "95": {
+      "al": true,
+      "ac": false,
+      "notes": ""
+    },
+    "96": {
+      "al": false,
+      "ac": false,
+      "notes": ""
+    },
+    "97": {
+      "al": true,
+      "ac": false,
+      "notes": ""
+    },
+    "98": {
+      "al": true,
+      "ac": true,
+      "notes": ""
+    },
+    "99": {
+      "al": true,
+      "ac": true,
+      "notes": ""
+    },
+    "100": {
+      "al": false,
+      "ac": false,
+      "notes": ""
+    },
+    "101": {
+      "al": true,
+      "ac": true,
+      "notes": ""
+    },
+    "102": {
+      "al": false,
+      "ac": true,
+      "notes": ""
+    },
+    "103": {
+      "al": false,
+      "ac": true,
+      "notes": ""
+    },
+    "104": {
+      "al": true,
+      "ac": false,
+      "notes": ""
+    },
+    "105": {
+      "al": false,
+      "ac": false,
+      "notes": ""
+    },
+    "106": {
+      "al": false,
+      "ac": true,
+      "notes": ""
+    },
+    "107": {
+      "al": true,
+      "ac": false,
+      "notes": ""
+    },
+    "108": {
+      "al": true,
+      "ac": true,
+      "notes": ""
+    },
+    "109": {
+      "al": true,
+      "ac": false,
+      "notes": ""
+    },
+    "110": {
+      "al": false,
+      "ac": true,
+      "notes": ""
+    },
+    "111": {
+      "al": true,
+      "ac": true,
+      "notes": ""
+    },
+    "112": {
+      "al": false,
+      "ac": false,
+      "notes": ""
+    },
+    "113": {
+      "al": false,
+      "ac": false,
+      "notes": ""
+    },
+    "114": {
+      "al": true,
+      "ac": false,
+      "notes": ""
+    },
+    "115": {
+      "al": false,
+      "ac": false,
+      "notes": ""
+    },
+    "116": {
+      "al": false,
+      "ac": true,
+      "notes": ""
+    },
+    "117": {
+      "al": false,
+      "ac": false,
+      "notes": ""
+    },
+    "118": {
+      "al": false,
+      "ac": true,
+      "notes": ""
+    },
+    "119": {
+      "al": false,
+      "ac": true,
+      "notes": ""
+    },
+    "120": {
+      "al": true,
+      "ac": true,
+      "notes": ""
+    },
+    "121": {
+      "al": false,
+      "ac": true,
+      "notes": ""
+    },
+    "122": {
+      "al": true,
+      "ac": false,
+      "notes": ""
+    },
+    "123": {
+      "al": false,
+      "ac": false,
+      "notes": ""
+    },
+    "124": {
+      "al": true,
+      "ac": false,
+      "notes": ""
+    },
+    "125": {
+      "al": false,
+      "ac": false,
+      "notes": ""
+    },
+    "126": {
+      "al": true,
+      "ac": false,
+      "notes": ""
+    },
+    "127": {
+      "al": false,
+      "ac": false,
+      "notes": ""
+    },
+    "128": {
+      "al": false,
+      "ac": true,
+      "notes": ""
+    },
+    "129": {
+      "al": false,
+      "ac": false,
+      "notes": ""
+    },
+    "130": {
+      "al": true,
+      "ac": false,
+      "notes": ""
+    },
+    "131": {
+      "al": false,
+      "ac": false,
+      "notes": ""
+    },
+    "132": {
+      "al": false,
+      "ac": false,
+      "notes": ""
+    },
+    "133": {
+      "al": false,
+      "ac": false,
+      "notes": ""
+    },
+    "134": {
+      "al": true,
+      "ac": false,
+      "notes": ""
+    },
+    "135": {
+      "al": false,
+      "ac": false,
+      "notes": ""
+    },
+    "136": {
+      "al": false,
+      "ac": true,
+      "notes": ""
+    },
+    "137": {
+      "al": false,
+      "ac": false,
+      "notes": ""
+    },
+    "138": {
+      "al": true,
+      "ac": false,
+      "notes": ""
+    },
+    "139": {
+      "al": true,
+      "ac": false,
+      "notes": ""
+    },
+    "140": {
+      "al": false,
+      "ac": false,
+      "notes": ""
+    },
+    "141": {
+      "al": false,
+      "ac": false,
+      "notes": ""
+    },
+    "142": {
+      "al": false,
+      "ac": false,
+      "notes": ""
+    },
+    "143": {
+      "al": true,
+      "ac": false,
+      "notes": ""
+    },
+    "144": {
+      "al": true,
+      "ac": false,
+      "notes": ""
+    },
+    "145": {
+      "al": false,
+      "ac": false,
+      "notes": ""
+    },
+    "146": {
+      "al": false,
+      "ac": true,
+      "notes": ""
+    },
+    "147": {
+      "al": false,
+      "ac": false,
+      "notes": ""
+    },
+    "148": {
+      "al": true,
+      "ac": true,
+      "notes": ""
+    },
+    "149": {
+      "al": false,
+      "ac": false,
+      "notes": ""
+    },
+    "150": {
+      "al": true,
+      "ac": false,
+      "notes": ""
+    },
+    "151": {
+      "al": true,
+      "ac": false,
+      "notes": ""
+    },
+    "152": {
+      "al": true,
+      "ac": true,
+      "notes": ""
+    },
+    "153": {
+      "al": true,
+      "ac": false,
+      "notes": ""
+    },
+    "154": {
+      "al": false,
+      "ac": false,
+      "notes": ""
+    },
+    "155": {
+      "al": true,
+      "ac": true,
+      "notes": ""
+    },
+    "156": {
+      "al": true,
+      "ac": true,
+      "notes": ""
+    },
+    "157": {
+      "al": false,
+      "ac": true,
+      "notes": ""
+    },
+    "158": {
+      "al": false,
+      "ac": false,
+      "notes": ""
+    },
+    "159": {
+      "al": true,
+      "ac": true,
+      "notes": ""
+    },
+    "160": {
+      "al": true,
+      "ac": false,
+      "notes": ""
+    },
+    "161": {
+      "al": true,
+      "ac": false,
+      "notes": ""
+    },
+    "162": {
+      "al": true,
+      "ac": false,
+      "notes": ""
+    },
+    "163": {
+      "al": false,
+      "ac": false,
+      "notes": ""
+    },
+    "164": {
+      "al": true,
+      "ac": false,
+      "notes": ""
+    },
+    "165": {
+      "al": false,
+      "ac": true,
+      "notes": ""
+    },
+    "166": {
+      "al": true,
+      "ac": false,
+      "notes": ""
+    },
+    "167": {
+      "al": true,
+      "ac": true,
+      "notes": ""
+    },
+    "168": {
+      "al": false,
+      "ac": true,
+      "notes": ""
+    },
+    "169": {
+      "al": false,
+      "ac": false,
+      "notes": ""
+    },
+    "170": {
+      "al": false,
+      "ac": true,
+      "notes": ""
+    },
+    "171": {
+      "al": true,
+      "ac": false,
+      "notes": ""
+    },
+    "172": {
+      "al": true,
+      "ac": true,
+      "notes": ""
+    },
+    "173": {
+      "al": true,
+      "ac": false,
+      "notes": ""
+    },
+    "174": {
+      "al": true,
+      "ac": false,
+      "notes": ""
+    },
+    "175": {
+      "al": true,
+      "ac": false,
+      "notes": ""
+    },
+    "176": {
+      "al": false,
+      "ac": false,
+      "notes": ""
+    },
+    "177": {
+      "al": false,
+      "ac": false,
+      "notes": ""
+    },
+    "178": {
+      "al": false,
+      "ac": false,
+      "notes": ""
+    },
+    "179": {
+      "al": false,
+      "ac": false,
+      "notes": ""
+    },
+    "180": {
+      "al": false,
+      "ac": false,
+      "notes": ""
+    },
+    "181": {
+      "al": false,
+      "ac": false,
+      "notes": ""
+    },
+    "182": {
+      "al": true,
+      "ac": false,
+      "notes": ""
+    },
+    "183": {
+      "al": false,
+      "ac": false,
+      "notes": ""
+    },
+    "184": {
+      "al": true,
+      "ac": true,
+      "notes": ""
+    },
+    "185": {
+      "al": true,
+      "ac": false,
+      "notes": ""
+    },
+    "186": {
+      "al": true,
+      "ac": true,
+      "notes": ""
+    },
+    "187": {
+      "al": false,
+      "ac": false,
+      "notes": ""
+    },
+    "188": {
+      "al": false,
+      "ac": false,
+      "notes": ""
+    },
+    "189": {
+      "al": true,
+      "ac": false,
+      "notes": ""
+    },
+    "190": {
+      "al": false,
+      "ac": false,
+      "notes": ""
+    },
+    "191": {
+      "al": true,
+      "ac": true,
+      "notes": ""
+    },
+    "192": {
+      "al": true,
+      "ac": false,
+      "notes": ""
+    },
+    "193": {
+      "al": false,
+      "ac": false,
+      "notes": ""
+    },
+    "194": {
+      "al": false,
+      "ac": true,
+      "notes": ""
+    },
+    "195": {
+      "al": true,
+      "ac": true,
+      "notes": ""
+    },
+    "196": {
+      "al": true,
+      "ac": false,
+      "notes": ""
+    },
+    "197": {
+      "al": true,
+      "ac": true,
+      "notes": ""
+    },
+    "198": {
+      "al": true,
+      "ac": true,
+      "notes": ""
+    },
+    "199": {
+      "al": false,
+      "ac": false,
+      "notes": ""
+    },
+    "200": {
+      "al": false,
+      "ac": false,
+      "notes": ""
+    },
+    "201": {
+      "al": true,
+      "ac": false,
+      "notes": ""
+    },
+    "202": {
+      "al": false,
+      "ac": false,
+      "notes": ""
+    },
+    "203": {
+      "al": true,
+      "ac": false,
+      "notes": ""
+    },
+    "204": {
+      "al": true,
+      "ac": false,
+      "notes": ""
+    },
+    "205": {
+      "al": false,
+      "ac": false,
+      "notes": ""
+    },
+    "206": {
+      "al": true,
+      "ac": false,
+      "notes": ""
+    },
+    "207": {
+      "al": false,
+      "ac": true,
+      "notes": ""
+    },
+    "208": {
+      "al": true,
+      "ac": false,
+      "notes": ""
+    },
+    "209": {
+      "al": true,
+      "ac": false,
+      "notes": ""
+    },
+    "210": {
+      "al": false,
+      "ac": true,
+      "notes": ""
+    },
+    "211": {
+      "al": false,
+      "ac": false,
+      "notes": ""
+    },
+    "212": {
+      "al": true,
+      "ac": false,
+      "notes": ""
+    },
+    "213": {
+      "al": true,
+      "ac": true,
+      "notes": ""
+    },
+    "214": {
+      "al": true,
+      "ac": true,
+      "notes": ""
+    },
+    "215": {
+      "al": false,
+      "ac": true,
+      "notes": ""
+    },
+    "216": {
+      "al": false,
+      "ac": false,
+      "notes": ""
+    },
+    "217": {
+      "al": true,
+      "ac": false,
+      "notes": ""
+    },
+    "218": {
+      "al": true,
+      "ac": false,
+      "notes": ""
+    },
+    "219": {
+      "al": true,
+      "ac": false,
+      "notes": ""
+    },
+    "220": {
+      "al": false,
+      "ac": false,
+      "notes": ""
+    },
+    "221": {
+      "al": false,
+      "ac": false,
+      "notes": ""
+    },
+    "222": {
+      "al": true,
+      "ac": false,
+      "notes": ""
+    },
+    "223": {
+      "al": false,
+      "ac": true,
+      "notes": ""
+    },
+    "224": {
+      "al": true,
+      "ac": false,
+      "notes": ""
+    },
+    "225": {
+      "al": true,
+      "ac": true,
+      "notes": ""
+    },
+    "226": {
+      "al": true,
+      "ac": true,
+      "notes": ""
+    },
+    "227": {
+      "al": true,
+      "ac": false,
+      "notes": ""
+    },
+    "228": {
+      "al": false,
+      "ac": true,
+      "notes": ""
+    },
+    "229": {
+      "al": false,
+      "ac": false,
+      "notes": ""
+    },
+    "230": {
+      "al": false,
+      "ac": false,
+      "notes": ""
+    },
+    "231": {
+      "al": true,
+      "ac": true,
+      "notes": ""
+    },
+    "232": {
+      "al": true,
+      "ac": true,
+      "notes": ""
+    },
+    "233": {
+      "al": true,
+      "ac": false,
+      "notes": ""
+    },
+    "234": {
+      "al": true,
+      "ac": false,
+      "notes": ""
+    },
+    "235": {
+      "al": true,
+      "ac": true,
+      "notes": ""
+    },
+    "236": {
+      "al": true,
+      "ac": false,
+      "notes": ""
+    },
+    "237": {
+      "al": true,
+      "ac": true,
+      "notes": ""
+    },
+    "241": {
+      "al": false,
+      "ac": true,
+      "notes": ""
+    },
+    "242": {
+      "al": true,
+      "ac": true,
+      "notes": ""
+    },
+    "243": {
+      "al": true,
+      "ac": true,
+      "notes": ""
+    },
+    "244": {
+      "al": true,
+      "ac": false,
+      "notes": ""
+    },
+    "245": {
+      "al": true,
+      "ac": true,
+      "notes": ""
+    },
+    "246": {
+      "al": true,
+      "ac": true,
+      "notes": ""
+    },
+    "247": {
+      "al": true,
+      "ac": true,
+      "notes": ""
+    },
+    "248": {
+      "al": false,
+      "ac": true,
+      "notes": ""
+    },
+    "249": {
+      "al": false,
+      "ac": false,
+      "notes": ""
+    },
+    "250": {
+      "al": true,
+      "ac": false,
+      "notes": ""
+    },
+    "251": {
+      "al": true,
+      "ac": false,
+      "notes": ""
+    },
+    "252": {
+      "al": true,
+      "ac": true,
+      "notes": ""
+    },
+    "253": {
+      "al": true,
+      "ac": true,
+      "notes": ""
+    },
+    "254": {
+      "al": false,
+      "ac": true,
+      "notes": ""
+    },
+    "255": {
+      "al": true,
+      "ac": true,
+      "notes": ""
+    },
+    "256": {
+      "al": true,
+      "ac": true,
+      "notes": ""
+    },
+    "257": {
+      "al": false,
+      "ac": false,
+      "notes": ""
+    },
+    "258": {
+      "al": false,
+      "ac": false,
+      "notes": ""
+    },
+    "259": {
+      "al": false,
+      "ac": false,
+      "notes": ""
+    },
+    "260": {
+      "al": true,
+      "ac": true,
+      "notes": ""
+    },
+    "261": {
+      "al": false,
+      "ac": true,
+      "notes": ""
+    },
+    "262": {
+      "al": false,
+      "ac": true,
+      "notes": ""
+    },
+    "263": {
+      "al": false,
+      "ac": true,
+      "notes": ""
+    },
+    "264": {
+      "al": true,
+      "ac": true,
+      "notes": ""
+    },
+    "265": {
+      "al": true,
+      "ac": true,
+      "notes": ""
+    },
+    "266": {
+      "al": true,
+      "ac": false,
+      "notes": ""
+    },
+    "267": {
+      "al": false,
+      "ac": false,
+      "notes": ""
+    },
+    "268": {
+      "al": false,
+      "ac": false,
+      "notes": ""
+    },
+    "269": {
+      "al": false,
+      "ac": false,
+      "notes": ""
+    },
+    "270": {
+      "al": true,
+      "ac": false,
+      "notes": ""
+    },
+    "271": {
+      "al": true,
+      "ac": false,
+      "notes": ""
+    },
+    "272": {
+      "al": false,
+      "ac": true,
+      "notes": ""
+    },
+    "273": {
+      "al": false,
+      "ac": true,
+      "notes": ""
+    },
+    "274": {
+      "al": true,
+      "ac": true,
+      "notes": ""
+    },
+    "275": {
+      "al": false,
+      "ac": false,
+      "notes": ""
+    },
+    "276": {
+      "al": false,
+      "ac": false,
+      "notes": ""
+    },
+    "277": {
+      "al": false,
+      "ac": true,
+      "notes": ""
+    },
+    "278": {
+      "al": true,
+      "ac": false,
+      "notes": ""
+    },
+    "279": {
+      "al": true,
+      "ac": true,
+      "notes": ""
+    },
+    "280": {
+      "al": false,
+      "ac": false,
+      "notes": ""
+    },
+    "281": {
+      "al": false,
+      "ac": false,
+      "notes": ""
+    },
+    "282": {
+      "al": true,
+      "ac": false,
+      "notes": ""
+    },
+    "283": {
+      "al": true,
+      "ac": false,
+      "notes": ""
+    },
+    "291": {
+      "al": false,
+      "ac": true,
+      "notes": ""
+    },
+    "292": {
+      "al": false,
+      "ac": false,
+      "notes": ""
+    },
+    "293": {
+      "al": false,
+      "ac": false,
+      "notes": ""
+    },
+    "0.5": {
+      "al": true,
+      "ac": false,
+      "notes": ""
+    },
+    "01": {
+      "al": true,
+      "ac": true,
+      "notes": ""
+    },
+    "02": {
+      "al": true,
+      "ac": true,
+      "notes": ""
+    },
+    "03": {
+      "al": true,
+      "ac": true,
+      "notes": ""
+    },
+    "04": {
+      "al": false,
+      "ac": true,
+      "notes": ""
+    },
+    "05": {
+      "al": false,
+      "ac": false,
+      "notes": ""
+    },
+    "06": {
+      "al": true,
+      "ac": false,
+      "notes": ""
+    },
+    "07": {
+      "al": true,
+      "ac": true,
+      "notes": ""
+    },
+    "08": {
+      "al": false,
+      "ac": true,
+      "notes": ""
+    },
+    "09": {
+      "al": true,
+      "ac": true,
+      "notes": ""
+    },
+    "WG0.5": {
+      "al": false,
+      "ac": false,
+      "notes": ""
+    },
+    "WG1": {
+      "al": false,
+      "ac": false,
+      "notes": ""
+    },
+    "WG2": {
+      "al": true,
+      "ac": true,
+      "notes": ""
+    },
+    "WG3": {
+      "al": false,
+      "ac": false,
+      "notes": ""
+    },
+    "WG4": {
+      "al": false,
+      "ac": false,
+      "notes": ""
+    },
+    "WG5": {
+      "al": true,
+      "ac": true,
+      "notes": ""
+    },
+    "WG6": {
+      "al": false,
+      "ac": false,
+      "notes": ""
+    },
+    "WG7": {
+      "al": true,
+      "ac": false,
+      "notes": ""
+    },
+    "WG8": {
+      "al": false,
+      "ac": true,
+      "notes": ""
+    },
+    "WG9": {
+      "al": false,
+      "ac": false,
+      "notes": ""
+    },
+    "CG1": {
+      "al": false,
+      "ac": true,
+      "notes": ""
+    },
+    "CG2": {
+      "al": false,
+      "ac": false,
+      "notes": ""
+    },
+    "CG3": {
+      "al": false,
+      "ac": false,
+      "notes": ""
+    },
+    "CG4": {
+      "al": false,
+      "ac": false,
+      "notes": ""
+    },
+    "CG5": {
+      "al": false,
+      "ac": false,
+      "notes": ""
+    },
+    "CG6": {
+      "al": false,
+      "ac": false,
+      "notes": ""
+    },
+    "CG7": {
+      "al": true,
+      "ac": false,
+      "notes": ""
+    },
+    "CG8": {
+      "al": false,
+      "ac": false,
+      "notes": ""
+    },
+    "CG9": {
+      "al": true,
+      "ac": false,
+      "notes": ""
+    },
+    "BG1": {
+      "al": true,
+      "ac": false,
+      "notes": ""
+    },
+    "BG3": {
+      "al": false,
+      "ac": false,
+      "notes": ""
+    },
+    "BG5": {
+      "al": true,
+      "ac": false,
+      "notes": ""
+    },
+    "BG7": {
+      "al": false,
+      "ac": false,
+      "notes": ""
+    },
+    "BG9": {
+      "al": true,
+      "ac": false,
+      "notes": ""
+    },
+    "GG1": {
+      "al": false,
+      "ac": false,
+      "notes": ""
+    },
+    "GG3": {
+      "al": false,
+      "ac": false,
+      "notes": ""
+    },
+    "GG5": {
+      "al": false,
+      "ac": false,
+      "notes": ""
+    },
+    "GG7": {
+      "al": true,
+      "ac": false,
+      "notes": ""
+    },
+    "GG9": {
+      "al": false,
+      "ac": false,
+      "notes": ""
+    },
+    "ohuhu_E03": {
+      "owned": true,
+      "notes": ""
+    },
+    "ohuhu_E111": {
+      "owned": true,
+      "notes": ""
+    },
+    "ohuhu_E13": {
+      "owned": true,
+      "notes": ""
+    },
+    "ohuhu_E215": {
+      "owned": true,
+      "notes": ""
+    },
+    "ohuhu_E26": {
+      "owned": true,
+      "notes": ""
+    },
+    "ohuhu_E30": {
+      "owned": true,
+      "notes": ""
+    },
+    "ohuhu_E312": {
+      "owned": true,
+      "notes": ""
+    },
+    "ohuhu_E315": {
+      "owned": true,
+      "notes": ""
+    },
+    "ohuhu_E36": {
+      "owned": true,
+      "notes": ""
+    },
+    "ohuhu_E411": {
+      "owned": true,
+      "notes": ""
+    },
+    "ohuhu_E413": {
+      "owned": true,
+      "notes": ""
+    },
+    "ohuhu_E415": {
+      "owned": true,
+      "notes": ""
+    },
+    "ohuhu_E47": {
+      "owned": true,
+      "notes": ""
+    },
+    "ohuhu_E49": {
+      "owned": true,
+      "notes": ""
+    },
+    "ohuhu_E511": {
+      "owned": true,
+      "notes": ""
+    },
+    "ohuhu_E513": {
+      "owned": true,
+      "notes": ""
+    },
+    "ohuhu_E59": {
+      "owned": true,
+      "notes": ""
+    },
+    "ohuhu_Y02": {
+      "owned": true,
+      "notes": ""
+    },
+    "ohuhu_Y03": {
+      "owned": true,
+      "notes": ""
+    },
+    "ohuhu_Y08": {
+      "owned": true,
+      "notes": ""
+    },
+    "ohuhu_Y111": {
+      "owned": true,
+      "notes": ""
+    },
+    "ohuhu_Y14": {
+      "owned": true,
+      "notes": ""
+    },
+    "ohuhu_Y210": {
+      "owned": true,
+      "notes": ""
+    },
+    "ohuhu_Y211": {
+      "owned": true,
+      "notes": ""
+    },
+    "ohuhu_Y213": {
+      "owned": true,
+      "notes": ""
+    },
+    "ohuhu_Y214": {
+      "owned": true,
+      "notes": ""
+    },
+    "ohuhu_Y216": {
+      "owned": true,
+      "notes": ""
+    },
+    "ohuhu_Y26": {
+      "owned": true,
+      "notes": ""
+    },
+    "ohuhu_Y27": {
+      "owned": true,
+      "notes": ""
+    },
+    "ohuhu_Y28": {
+      "owned": true,
+      "notes": ""
+    },
+    "ohuhu_Y29": {
+      "owned": true,
+      "notes": ""
+    },
+    "ohuhu_Y310": {
+      "owned": true,
+      "notes": ""
+    },
+    "ohuhu_Y315": {
+      "owned": true,
+      "notes": ""
+    },
+    "ohuhu_Y34": {
+      "owned": true,
+      "notes": ""
+    },
+    "ohuhu_Y37": {
+      "owned": true,
+      "notes": ""
+    },
+    "ohuhu_Y411": {
+      "owned": true,
+      "notes": ""
+    },
+    "ohuhu_Y415": {
+      "owned": true,
+      "notes": ""
+    },
+    "ohuhu_Y416": {
+      "owned": true,
+      "notes": ""
+    },
+    "ohuhu_Y43": {
+      "owned": true,
+      "notes": ""
+    },
+    "ohuhu_Y48": {
+      "owned": true,
+      "notes": ""
+    },
+    "ohuhu_Y516": {
+      "owned": true,
+      "notes": ""
+    },
+    "ohuhu_Y57": {
+      "owned": true,
+      "notes": ""
+    },
+    "ohuhu_Y610": {
+      "owned": true,
+      "notes": ""
+    },
+    "ohuhu_Y611": {
+      "owned": true,
+      "notes": ""
+    },
+    "ohuhu_Y613": {
+      "owned": true,
+      "notes": ""
+    },
+    "ohuhu_Y615": {
+      "owned": true,
+      "notes": ""
+    },
+    "ohuhu_Y66": {
+      "owned": true,
+      "notes": ""
+    },
+    "ohuhu_Y68": {
+      "owned": true,
+      "notes": ""
+    },
+    "ohuhu_YR014": {
+      "owned": true,
+      "notes": ""
+    },
+    "ohuhu_YR02": {
+      "owned": true,
+      "notes": ""
+    },
+    "ohuhu_YR04": {
+      "owned": true,
+      "notes": ""
+    },
+    "ohuhu_YR07": {
+      "owned": true,
+      "notes": ""
+    },
+    "ohuhu_YR09": {
+      "owned": true,
+      "notes": ""
+    },
+    "ohuhu_YR11": {
+      "owned": true,
+      "notes": ""
+    },
+    "ohuhu_YR110": {
+      "owned": true,
+      "notes": ""
+    },
+    "ohuhu_YR112": {
+      "owned": true,
+      "notes": ""
+    },
+    "ohuhu_YR114": {
+      "owned": true,
+      "notes": ""
+    },
+    "ohuhu_YR19": {
+      "owned": true,
+      "notes": ""
+    },
+    "ohuhu_YR214": {
+      "owned": true,
+      "notes": ""
+    },
+    "ohuhu_YR25": {
+      "owned": true,
+      "notes": ""
+    },
+    "ohuhu_YR27": {
+      "owned": true,
+      "notes": ""
+    },
+    "ohuhu_YR29": {
+      "owned": true,
+      "notes": ""
+    },
+    "ohuhu_YR310": {
+      "owned": true,
+      "notes": ""
+    },
+    "ohuhu_YR313": {
+      "owned": true,
+      "notes": ""
+    },
+    "ohuhu_YR316": {
+      "owned": true,
+      "notes": ""
+    },
+    "ohuhu_YR33": {
+      "owned": true,
+      "notes": ""
+    },
+    "ohuhu_YR34": {
+      "owned": true,
+      "notes": ""
+    },
+    "ohuhu_YR36": {
+      "owned": true,
+      "notes": ""
+    },
+    "ohuhu_YR37": {
+      "owned": true,
+      "notes": ""
+    },
+    "ohuhu_YR38": {
+      "owned": true,
+      "notes": ""
+    },
+    "ohuhu_YR39": {
+      "owned": true,
+      "notes": ""
+    },
+    "ohuhu_YR44": {
+      "owned": true,
+      "notes": ""
+    },
+    "ohuhu_YR47": {
+      "owned": true,
+      "notes": ""
+    },
+    "ohuhu_YR510": {
+      "owned": true,
+      "notes": ""
+    },
+    "ohuhu_YR511": {
+      "owned": true,
+      "notes": ""
+    },
+    "ohuhu_YR515": {
+      "owned": true,
+      "notes": ""
+    },
+    "ohuhu_YR52": {
+      "owned": true,
+      "notes": ""
+    },
+    "ohuhu_YR54": {
+      "owned": true,
+      "notes": ""
+    },
+    "ohuhu_YR57": {
+      "owned": true,
+      "notes": ""
+    },
+    "ohuhu_YR58": {
+      "owned": true,
+      "notes": ""
+    },
+    "ohuhu_E514": {
+      "owned": true,
+      "notes": ""
+    },
+    "ohuhu_E515": {
+      "owned": true,
+      "notes": ""
+    },
+    "ohuhu_E612": {
+      "owned": true,
+      "notes": ""
+    },
+    "ohuhu_E613": {
+      "owned": true,
+      "notes": ""
+    },
+    "ohuhu_E615": {
+      "owned": true,
+      "notes": ""
+    },
+    "ohuhu_E64": {
+      "owned": true,
+      "notes": ""
+    },
+    "ohuhu_E66": {
+      "owned": true,
+      "notes": ""
+    },
+    "ohuhu_E69": {
+      "owned": true,
+      "notes": ""
+    },
+    "ohuhu_E710": {
+      "owned": true,
+      "notes": ""
+    },
+    "ohuhu_E711": {
+      "owned": true,
+      "notes": ""
+    },
+    "ohuhu_E712": {
+      "owned": true,
+      "notes": ""
+    },
+    "ohuhu_E714": {
+      "owned": true,
+      "notes": ""
+    },
+    "ohuhu_E75": {
+      "owned": true,
+      "notes": ""
+    },
+    "ohuhu_E81": {
+      "owned": true,
+      "notes": ""
+    },
+    "ohuhu_E814": {
+      "owned": true,
+      "notes": ""
+    },
+    "ohuhu_E85": {
+      "owned": true,
+      "notes": ""
+    },
+    "ohuhu_E912": {
+      "owned": true,
+      "notes": ""
+    },
+    "ohuhu_E913": {
+      "owned": true,
+      "notes": ""
+    },
+    "ohuhu_E915": {
+      "owned": true,
+      "notes": ""
+    },
+    "ohuhu_E93": {
+      "owned": true,
+      "notes": ""
+    },
+    "ohuhu_R014": {
+      "owned": true,
+      "notes": ""
+    },
+    "ohuhu_R015": {
+      "owned": true,
+      "notes": ""
+    },
+    "ohuhu_R111": {
+      "owned": true,
+      "notes": ""
+    },
+    "ohuhu_R15": {
+      "owned": true,
+      "notes": ""
+    },
+    "ohuhu_R16": {
+      "owned": true,
+      "notes": ""
+    },
+    "ohuhu_R19": {
+      "owned": true,
+      "notes": ""
+    },
+    "ohuhu_R210": {
+      "owned": true,
+      "notes": ""
+    },
+    "ohuhu_R213": {
+      "owned": true,
+      "notes": ""
+    },
+    "ohuhu_R214": {
+      "owned": true,
+      "notes": ""
+    },
+    "ohuhu_R215": {
+      "owned": true,
+      "notes": ""
+    },
+    "ohuhu_R23": {
+      "owned": true,
+      "notes": ""
+    },
+    "ohuhu_R27": {
+      "owned": true,
+      "notes": ""
+    },
+    "ohuhu_R28": {
+      "owned": true,
+      "notes": ""
+    },
+    "ohuhu_R310": {
+      "owned": true,
+      "notes": ""
+    },
+    "ohuhu_R38": {
+      "owned": true,
+      "notes": ""
+    },
+    "ohuhu_R412": {
+      "owned": true,
+      "notes": ""
+    },
+    "ohuhu_R413": {
+      "owned": true,
+      "notes": ""
+    },
+    "ohuhu_R414": {
+      "owned": true,
+      "notes": ""
+    },
+    "ohuhu_R48": {
+      "owned": true,
+      "notes": ""
+    },
+    "ohuhu_R50": {
+      "owned": true,
+      "notes": ""
+    },
+    "ohuhu_R510": {
+      "owned": true,
+      "notes": ""
+    },
+    "ohuhu_R513": {
+      "owned": true,
+      "notes": ""
+    },
+    "ohuhu_R514": {
+      "owned": true,
+      "notes": ""
+    },
+    "ohuhu_R54": {
+      "owned": true,
+      "notes": ""
+    },
+    "ohuhu_R57": {
+      "owned": true,
+      "notes": ""
+    },
+    "ohuhu_R58": {
+      "owned": true,
+      "notes": ""
+    },
+    "ohuhu_R59": {
+      "owned": true,
+      "notes": ""
+    },
+    "ohuhu_R612": {
+      "owned": true,
+      "notes": ""
+    },
+    "ohuhu_R613": {
+      "owned": true,
+      "notes": ""
+    },
+    "ohuhu_R68": {
+      "owned": true,
+      "notes": ""
+    },
+    "ohuhu_RV04": {
+      "owned": true,
+      "notes": ""
+    },
+    "ohuhu_RV05": {
+      "owned": true,
+      "notes": ""
+    },
+    "ohuhu_RV08": {
+      "owned": true,
+      "notes": ""
+    },
+    "ohuhu_RV09": {
+      "owned": true,
+      "notes": ""
+    },
+    "ohuhu_RV111": {
+      "owned": true,
+      "notes": ""
+    },
+    "ohuhu_RV17": {
+      "owned": true,
+      "notes": ""
+    },
+    "ohuhu_RV18": {
+      "owned": true,
+      "notes": ""
+    },
+    "ohuhu_RV19": {
+      "owned": true,
+      "notes": ""
+    },
+    "ohuhu_RV210": {
+      "owned": true,
+      "notes": ""
+    },
+    "ohuhu_RV211": {
+      "owned": true,
+      "notes": ""
+    },
+    "ohuhu_RV212": {
+      "owned": true,
+      "notes": ""
+    },
+    "ohuhu_RV23": {
+      "owned": true,
+      "notes": ""
+    },
+    "ohuhu_RV24": {
+      "owned": true,
+      "notes": ""
+    },
+    "ohuhu_RV25": {
+      "owned": true,
+      "notes": ""
+    },
+    "ohuhu_RV27": {
+      "owned": true,
+      "notes": ""
+    },
+    "ohuhu_RV28": {
+      "owned": true,
+      "notes": ""
+    },
+    "ohuhu_RV29": {
+      "owned": true,
+      "notes": ""
+    },
+    "ohuhu_RV31": {
+      "owned": true,
+      "notes": ""
+    },
+    "ohuhu_RV311": {
+      "owned": true,
+      "notes": ""
+    },
+    "ohuhu_RV313": {
+      "owned": true,
+      "notes": ""
+    },
+    "ohuhu_RV314": {
+      "owned": true,
+      "notes": ""
+    },
+    "ohuhu_RV316": {
+      "owned": true,
+      "notes": ""
+    },
+    "ohuhu_RV32": {
+      "owned": true,
+      "notes": ""
+    },
+    "ohuhu_RV35": {
+      "owned": true,
+      "notes": ""
+    },
+    "ohuhu_RV39": {
+      "owned": true,
+      "notes": ""
+    },
+    "ohuhu_RV45": {
+      "owned": true,
+      "notes": ""
+    },
+    "ohuhu_RV514": {
+      "owned": true,
+      "notes": ""
+    },
+    "ohuhu_RV53": {
+      "owned": true,
+      "notes": ""
+    },
+    "ohuhu_RV57": {
+      "owned": true,
+      "notes": ""
+    },
+    "ohuhu_RV58": {
+      "owned": true,
+      "notes": ""
+    },
+    "ohuhu_B010": {
+      "owned": true,
+      "notes": ""
+    },
+    "ohuhu_B03": {
+      "owned": true,
+      "notes": ""
+    },
+    "ohuhu_B07": {
+      "owned": true,
+      "notes": ""
+    },
+    "ohuhu_B08": {
+      "owned": true,
+      "notes": ""
+    },
+    "ohuhu_B111": {
+      "owned": true,
+      "notes": ""
+    },
+    "ohuhu_B112": {
+      "owned": true,
+      "notes": ""
+    },
+    "ohuhu_B114": {
+      "owned": true,
+      "notes": ""
+    },
+    "ohuhu_B115": {
+      "owned": true,
+      "notes": ""
+    },
+    "ohuhu_B27": {
+      "owned": true,
+      "notes": ""
+    },
+    "ohuhu_B28": {
+      "owned": true,
+      "notes": ""
+    },
+    "ohuhu_B310": {
+      "owned": true,
+      "notes": ""
+    },
+    "ohuhu_B311": {
+      "owned": true,
+      "notes": ""
+    },
+    "ohuhu_B315": {
+      "owned": true,
+      "notes": ""
+    },
+    "ohuhu_B411": {
+      "owned": true,
+      "notes": ""
+    },
+    "ohuhu_B415": {
+      "owned": true,
+      "notes": ""
+    },
+    "ohuhu_BG010": {
+      "owned": true,
+      "notes": ""
+    },
+    "ohuhu_BG05": {
+      "owned": true,
+      "notes": ""
+    },
+    "ohuhu_BG115": {
+      "owned": true,
+      "notes": ""
+    },
+    "ohuhu_BG211": {
+      "owned": true,
+      "notes": ""
+    },
+    "ohuhu_BG212": {
+      "owned": true,
+      "notes": ""
+    },
+    "ohuhu_BG22": {
+      "owned": true,
+      "notes": ""
+    },
+    "ohuhu_BG24": {
+      "owned": true,
+      "notes": ""
+    },
+    "ohuhu_BG310": {
+      "owned": true,
+      "notes": ""
+    },
+    "ohuhu_BG311": {
+      "owned": true,
+      "notes": ""
+    },
+    "ohuhu_BG312": {
+      "owned": true,
+      "notes": ""
+    },
+    "ohuhu_BG314": {
+      "owned": true,
+      "notes": ""
+    },
+    "ohuhu_BG315": {
+      "owned": true,
+      "notes": ""
+    },
+    "ohuhu_BV013": {
+      "owned": true,
+      "notes": ""
+    },
+    "ohuhu_BV014": {
+      "owned": true,
+      "notes": ""
+    },
+    "ohuhu_BV03": {
+      "owned": true,
+      "notes": ""
+    },
+    "ohuhu_BV04": {
+      "owned": true,
+      "notes": ""
+    },
+    "ohuhu_BV05": {
+      "owned": true,
+      "notes": ""
+    },
+    "ohuhu_BV09": {
+      "owned": true,
+      "notes": ""
+    },
+    "ohuhu_BV18": {
+      "owned": true,
+      "notes": ""
+    },
+    "ohuhu_BV19": {
+      "owned": true,
+      "notes": ""
+    },
+    "ohuhu_BV210": {
+      "owned": true,
+      "notes": ""
+    },
+    "ohuhu_BV26": {
+      "owned": true,
+      "notes": ""
+    },
+    "ohuhu_BV27": {
+      "owned": true,
+      "notes": ""
+    },
+    "ohuhu_BV28": {
+      "owned": true,
+      "notes": ""
+    },
+    "ohuhu_BV31": {
+      "owned": true,
+      "notes": ""
+    },
+    "ohuhu_BV310": {
+      "owned": true,
+      "notes": ""
+    },
+    "ohuhu_BV311": {
+      "owned": true,
+      "notes": ""
+    },
+    "ohuhu_BV312": {
+      "owned": true,
+      "notes": ""
+    },
+    "ohuhu_BV314": {
+      "owned": true,
+      "notes": ""
+    },
+    "ohuhu_BV315": {
+      "owned": true,
+      "notes": ""
+    },
+    "ohuhu_BV34": {
+      "owned": true,
+      "notes": ""
+    },
+    "ohuhu_BV35": {
+      "owned": true,
+      "notes": ""
+    },
+    "ohuhu_BV37": {
+      "owned": true,
+      "notes": ""
+    },
+    "ohuhu_BV38": {
+      "owned": true,
+      "notes": ""
+    },
+    "ohuhu_BV414": {
+      "owned": true,
+      "notes": ""
+    },
+    "ohuhu_BV415": {
+      "owned": true,
+      "notes": ""
+    },
+    "ohuhu_BV48": {
+      "owned": true,
+      "notes": ""
+    },
+    "ohuhu_BV514": {
+      "owned": true,
+      "notes": ""
+    },
+    "ohuhu_BV59": {
+      "owned": true,
+      "notes": ""
+    },
+    "ohuhu_G112": {
+      "owned": true,
+      "notes": ""
+    },
+    "ohuhu_G210": {
+      "owned": true,
+      "notes": ""
+    },
+    "ohuhu_G213": {
+      "owned": true,
+      "notes": ""
+    },
+    "ohuhu_G24": {
+      "owned": true,
+      "notes": ""
+    },
+    "ohuhu_G29": {
+      "owned": true,
+      "notes": ""
+    },
+    "ohuhu_RV515": {
+      "owned": true,
+      "notes": ""
+    },
+    "ohuhu_V010": {
+      "owned": true,
+      "notes": ""
+    },
+    "ohuhu_V013": {
+      "owned": true,
+      "notes": ""
+    },
+    "ohuhu_V015": {
+      "owned": true,
+      "notes": ""
+    },
+    "ohuhu_V016": {
+      "owned": true,
+      "notes": ""
+    },
+    "ohuhu_V07": {
+      "owned": true,
+      "notes": ""
+    },
+    "ohuhu_V09": {
+      "owned": true,
+      "notes": ""
+    },
+    "ohuhu_V12": {
+      "owned": true,
+      "notes": ""
+    },
+    "ohuhu_V13": {
+      "owned": true,
+      "notes": ""
+    },
+    "ohuhu_V18": {
+      "owned": true,
+      "notes": ""
+    },
+    "ohuhu_V214": {
+      "owned": true,
+      "notes": ""
+    },
+    "ohuhu_V23": {
+      "owned": true,
+      "notes": ""
+    },
+    "ohuhu_V24": {
+      "owned": true,
+      "notes": ""
+    },
+    "ohuhu_V25": {
+      "owned": true,
+      "notes": ""
+    },
+    "ohuhu_V29": {
+      "owned": true,
+      "notes": ""
+    },
+    "ohuhu_V32": {
+      "owned": true,
+      "notes": ""
+    },
+    "ohuhu_V33": {
+      "owned": true,
+      "notes": ""
+    },
+    "ohuhu_V35": {
+      "owned": true,
+      "notes": ""
+    },
+    "ohuhu_V38": {
+      "owned": true,
+      "notes": ""
+    },
+    "ohuhu_V411": {
+      "owned": true,
+      "notes": ""
+    },
+    "ohuhu_V413": {
+      "owned": true,
+      "notes": ""
+    },
+    "ohuhu_120": {
+      "owned": true,
+      "notes": ""
+    },
+    "ohuhu_BGY00": {
+      "owned": true,
+      "notes": ""
+    },
+    "ohuhu_BGY05": {
+      "owned": true,
+      "notes": ""
+    },
+    "ohuhu_BGY08": {
+      "owned": true,
+      "notes": ""
+    },
+    "ohuhu_BGY15": {
+      "owned": true,
+      "notes": ""
+    },
+    "ohuhu_BGY17": {
+      "owned": true,
+      "notes": ""
+    },
+    "ohuhu_BGY24": {
+      "owned": true,
+      "notes": ""
+    },
+    "ohuhu_BGY36": {
+      "owned": true,
+      "notes": ""
+    },
+    "ohuhu_BGY38": {
+      "owned": true,
+      "notes": ""
+    },
+    "ohuhu_CG03": {
+      "owned": true,
+      "notes": ""
+    },
+    "ohuhu_CG13": {
+      "owned": true,
+      "notes": ""
+    },
+    "ohuhu_CG14": {
+      "owned": true,
+      "notes": ""
+    },
+    "ohuhu_CG17": {
+      "owned": true,
+      "notes": ""
+    },
+    "ohuhu_CG25": {
+      "owned": true,
+      "notes": ""
+    },
+    "ohuhu_CG26": {
+      "owned": true,
+      "notes": ""
+    },
+    "ohuhu_CG27": {
+      "owned": true,
+      "notes": ""
+    },
+    "ohuhu_CG28": {
+      "owned": true,
+      "notes": ""
+    },
+    "ohuhu_FY00": {
+      "owned": true,
+      "notes": ""
+    },
+    "ohuhu_FY01": {
+      "owned": true,
+      "notes": ""
+    },
+    "ohuhu_FY02": {
+      "owned": true,
+      "notes": ""
+    },
+    "ohuhu_FY03": {
+      "owned": true,
+      "notes": ""
+    },
+    "ohuhu_FY04": {
+      "owned": true,
+      "notes": ""
+    },
+    "ohuhu_G215": {
+      "owned": true,
+      "notes": ""
+    },
+    "ohuhu_G310": {
+      "owned": true,
+      "notes": ""
+    },
+    "ohuhu_G312": {
+      "owned": true,
+      "notes": ""
+    },
+    "ohuhu_G315": {
+      "owned": true,
+      "notes": ""
+    },
+    "ohuhu_G316": {
+      "owned": true,
+      "notes": ""
+    },
+    "ohuhu_G34": {
+      "owned": true,
+      "notes": ""
+    },
+    "ohuhu_G41": {
+      "owned": true,
+      "notes": ""
+    },
+    "ohuhu_G410": {
+      "owned": true,
+      "notes": ""
+    },
+    "ohuhu_G44": {
+      "owned": true,
+      "notes": ""
+    },
+    "ohuhu_G47": {
+      "owned": true,
+      "notes": ""
+    },
+    "ohuhu_G49": {
+      "owned": true,
+      "notes": ""
+    },
+    "ohuhu_GG03": {
+      "owned": true,
+      "notes": ""
+    },
+    "ohuhu_GG05": {
+      "owned": true,
+      "notes": ""
+    },
+    "ohuhu_GG10": {
+      "owned": true,
+      "notes": ""
+    },
+    "ohuhu_GG11": {
+      "owned": true,
+      "notes": ""
+    },
+    "ohuhu_GG12": {
+      "owned": true,
+      "notes": ""
+    },
+    "ohuhu_GG15": {
+      "owned": true,
+      "notes": ""
+    },
+    "ohuhu_GG16": {
+      "owned": true,
+      "notes": ""
+    },
+    "ohuhu_GG18": {
+      "owned": true,
+      "notes": ""
+    },
+    "ohuhu_GG20": {
+      "owned": true,
+      "notes": ""
+    },
+    "ohuhu_GG28": {
+      "owned": true,
+      "notes": ""
+    },
+    "ohuhu_WG05": {
+      "owned": true,
+      "notes": ""
+    },
+    "ohuhu_WG06": {
+      "owned": true,
+      "notes": ""
+    },
+    "ohuhu_WG08": {
+      "owned": true,
+      "notes": ""
+    },
+    "ohuhu_WG10": {
+      "owned": true,
+      "notes": ""
+    },
+    "ohuhu_WG12": {
+      "owned": true,
+      "notes": ""
+    },
+    "ohuhu_WG23": {
+      "owned": true,
+      "notes": ""
+    },
+    "ohuhu_WG24": {
+      "owned": true,
+      "notes": ""
+    },
+    "ohuhu_WG27": {
+      "owned": true,
+      "notes": ""
+    },
+    "ohuhu_WG28": {
+      "owned": true,
+      "notes": ""
+    },
+    "ohuhu_WG35": {
+      "owned": true,
+      "notes": ""
+    },
+    "ohuhu_WG36": {
+      "owned": true,
+      "notes": ""
+    },
+    "ohuhu_YG012": {
+      "owned": true,
+      "notes": ""
+    },
+    "ohuhu_YG013": {
+      "owned": true,
+      "notes": ""
+    },
+    "ohuhu_YG014": {
+      "owned": true,
+      "notes": ""
+    },
+    "ohuhu_YG015": {
+      "owned": true,
+      "notes": ""
+    },
+    "ohuhu_YG07": {
+      "owned": true,
+      "notes": ""
+    },
+    "ohuhu_YG111": {
+      "owned": true,
+      "notes": ""
+    },
+    "ohuhu_YG112": {
+      "owned": true,
+      "notes": ""
+    },
+    "ohuhu_YG114": {
+      "owned": true,
+      "notes": ""
+    },
+    "ohuhu_YG212": {
+      "owned": true,
+      "notes": ""
+    },
+    "ohuhu_YG215": {
+      "owned": true,
+      "notes": ""
+    },
+    "ohuhu_YG29": {
+      "owned": true,
+      "notes": ""
+    },
+    "ohuhu_YG313": {
+      "owned": true,
+      "notes": ""
+    },
+    "ohuhu_YG414": {
+      "owned": true,
+      "notes": ""
+    },
+    "ohuhu_YG510": {
+      "owned": true,
+      "notes": ""
+    },
+    "ohuhu_YG610": {
+      "owned": true,
+      "notes": ""
+    },
+    "ohuhu_YG66": {
+      "owned": true,
+      "notes": ""
+    },
+    "ohuhu_YGY01": {
+      "owned": true,
+      "notes": ""
+    },
+    "ohuhu_YGY03": {
+      "owned": true,
+      "notes": ""
+    },
+    "ohuhu_YGY11": {
+      "owned": true,
+      "notes": ""
+    },
+    "ohuhu_YGY13": {
+      "owned": true,
+      "notes": ""
+    },
+    "ohuhu_YGY21": {
+      "owned": true,
+      "notes": ""
+    },
+    "ohuhu_YGY22": {
+      "owned": true,
+      "notes": ""
+    },
+    "ohuhu_YGY24": {
+      "owned": true,
+      "notes": ""
+    },
+    "ohuhu_YGY25": {
+      "owned": true,
+      "notes": ""
+    },
+    "ohuhu_YGY26": {
+      "owned": true,
+      "notes": ""
+    },
+    "ohuhu_YGY27": {
+      "owned": true,
+      "notes": ""
+    }
+  }
+}

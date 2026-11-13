@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
+  <title>DecoTime Color Tracker</title>
+  
+  <!-- PWA Meta Tags -->
+  <meta name="theme-color" content="#BE2846">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+  <meta name="apple-mobile-web-app-title" content="DecoTime">
+  
+  <link rel="manifest" href="manifest.json">
+  <link rel="icon" type="image/png" sizes="192x192" href="icon-192.png">
+  <link rel="apple-touch-icon" href="icon-192.png">
+  
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Top Sticky Header -->
+  <header class="app-header">
+    <div class="header-top">
+      <div class="brand">
+        <div class="brand-icon">🎨</div>
+        <div class="brand-text">
+          <h1>Color Tracker</h1>
+          <p>Twin Marker • Acqua Marker • Ohuhu</p>
+        </div>
+      </div>
+      <div class="header-actions">
+        <button class="btn-icon" id="btnThemeToggle" title="Tema Chiaro/Scuro" onclick="toggleTheme()">☀️</button>
+        <button class="btn-icon" id="btnSync" title="Sincronizzazione Wi-Fi Locale (PC / Tablet / Telefono)" onclick="triggerManualSync()">
+          <span id="syncIndicatorIcon">🟢</span>
+        </button>
+        <button class="btn-icon" id="btnGuide" title="Come installare su Android" onclick="openInstallGuide()">📲</button>
+        <button class="btn-icon" id="btnSettings" title="Opzioni e Backup" onclick="openOptionsModal()">⚙️</button>
+      </div>
+    </div>
+
+    <!-- Quick Stats Strip -->
+    <div class="stats-strip">
+      <div class="stat-pill stat-al" onclick="setStatusFilter('al')">
+        <span class="stat-num" id="statAlCount">175</span>
+        <span class="stat-label">🖊️ Twin Marker</span>
+      </div>
+      <div class="stat-pill stat-ac" onclick="setStatusFilter('ac')">
+        <span class="stat-num" id="statAcCount">120</span>
+        <span class="stat-label">💧 Acqua Marker</span>
+      </div>
+      <div class="stat-pill stat-ohuhu" onclick="setStatusFilter('ohuhu')">
+        <span class="stat-num" id="statOhuhuCount">320</span>
+        <span class="stat-label">🖍️ Ohuhu</span>
+      </div>
+      <div class="stat-pill stat-tot" onclick="setStatusFilter('all')">
+        <span class="stat-num" id="statTotCount">615</span>
+        <span class="stat-label">⭐ Totale</span>
+      </div>
+    </div>
+
+    <!-- Progress bar -->
+    <div class="progress-bar-container">
+      <div class="progress-fill" id="progressFill"></div>
+    </div>
+
+    <!-- Search Input -->
+    <div class="search-wrapper">
+      <span class="search-icon-left">🔍</span>
+      <input type="text" id="searchInput" class="search-input" placeholder="Cerca codice o nome (es. 44, Y111, Mustard, WG2)..." autocomplete="off" autocorrect="off" spellcheck="false">
+      <button class="search-clear" id="searchClear" onclick="clearSearch()">✕</button>
+    </div>
+
+    <!-- Status Filters (Row 1) -->
+    <div class="filter-row" id="statusFilterRow">
+      <button class="filter-chip chip-al active" data-status="al">🖊️ Twin Marker (175)</button>
+      <button class="filter-chip chip-ac" data-status="ac">💧 Acqua Marker (120)</button>
+      <button class="filter-chip chip-ohuhu" data-status="ohuhu">🖍️ Ohuhu Marker (320)</button>
+      <button class="filter-chip" data-status="all">🌈 Tutti i Colori (615)</button>
+    </div>
+
+    <!-- Category Filters (Row 2) -->
+    <div class="filter-row category-row" id="categoryFilterRow">
+      <button class="filter-chip active" data-category="all">Tutte le Categorie</button>
+      <!-- Pages from user original sheets -->
+      <button class="filter-chip" data-category="page-1">📄 Pagina 1</button>
+      <button class="filter-chip" data-category="page-2">📄 Pagina 2</button>
+      <button class="filter-chip" data-category="page-3">📄 Pagina 3</button>
+      <button class="filter-chip" data-category="page-4">📄 Pagina 4</button>
+      <button class="filter-chip" data-category="page-5">📄 Pagina 5</button>
+      <button class="filter-chip" data-category="page-6">📄 Pagina 6</button>
+      <button class="filter-chip" data-category="page-7">📄 Grigi (Pagina 7)</button>
+      <!-- Chromatic Families -->
+      <button class="filter-chip" data-category="Rossi & Rosa">🔴 Rossi & Rosa</button>
+      <button class="filter-chip" data-category="Gialli & Arancio">🟡 Gialli & Arancio</button>
+      <button class="filter-chip" data-category="Verdi">🟢 Verdi</button>
+      <button class="filter-chip" data-category="Blu & Turchese">🔵 Blu & Turchese</button>
+      <button class="filter-chip" data-category="Viola & Lilla">🟣 Viola & Lilla</button>
+      <button class="filter-chip" data-category="Marroni & Terra">🟤 Marroni & Terra</button>
+      <button class="filter-chip" data-category="Toni Pelle & Pastello">🌸 Toni Pelle</button>
+      <button class="filter-chip" data-category="Fluo & Neon">⚡ Fluo & Neon</button>
+      <button class="filter-chip" data-category="Grigi Warm">⚪ Grigi Warm</button>
+      <button class="filter-chip" data-category="Grigi Cool">🔘 Grigi Cool</button>
+      <button class="filter-chip" data-category="Grigi Blue">🔹 Grigi Blue</button>
+      <button class="filter-chip" data-category="Grigi Green">🍃 Grigi Green</button>
+      <button class="filter-chip" data-category="new-only">✨ Solo Nuovi (*)</button>
+    </div>
+  </header>
+
+  <!-- Color Grid Container -->
+  <main>
+    <div class="colors-grid" id="colorsGrid">
+      <!-- Generated by app.js -->
+    </div>
+    <div class="empty-state" id="emptyState" style="display: none;">
+      <div class="empty-icon">🎨</div>
+      <h3>Nessun colore trovato</h3>
+      <p>Prova a modificare la ricerca o i filtri selezionati.</p>
+    </div>
+  </main>
+
+  <!-- Bottom Navigation Bar for Mobile Thumb Ergonomics -->
+  <nav class="bottom-nav">
+    <button class="bottom-tab active" id="tabHome" onclick="setStatusFilter('all')">
+      <span class="tab-icon">🎨</span>
+      <span>Tutti</span>
+    </button>
+    <button class="bottom-tab" id="tabWishlist" onclick="openWishlistModal()">
+      <span class="tab-icon">🛒</span>
+      <span>Lista Spesa</span>
+    </button>
+    <button class="bottom-tab" id="tabStats" onclick="openStatsModal()">
+      <span class="tab-icon">📊</span>
+      <span>Riepilogo</span>
+    </button>
+    <button class="bottom-tab" id="tabOptions" onclick="openOptionsModal()">
+      <span class="tab-icon">⚙️</span>
+      <span>Opzioni</span>
+    </button>
+  </nav>
+
+  <!-- MODAL: Wishlist / Lista Spesa per Action -->
+  <div class="modal-overlay" id="wishlistModal" onclick="closeOnOverlay(event, 'wishlistModal')">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h2>🛒 Lista Spesa (Colori Mancanti)</h2>
+        <button class="modal-close" onclick="closeModal('wishlistModal')">✕</button>
+      </div>
+      <div class="modal-body">
+        <p style="font-size: 0.85rem; color: var(--text-muted); margin-bottom: 10px;">
+          Questa lista mostra i pennarelli che non hai ancora. Puoi copiarla al volo su WhatsApp o salvarla per quando vai da Action!
+        </p>
+        <div style="display: flex; gap: 8px; margin-bottom: 10px;">
+          <button class="filter-chip active" id="wlFilterTwin" onclick="updateWishlistText('al')">Mancanti Twin Marker</button>
+          <button class="filter-chip" id="wlFilterAcqua" onclick="updateWishlistText('ac')">Mancanti Acqua Marker</button>
+          <button class="filter-chip" id="wlFilterOhuhu" onclick="updateWishlistText('ohuhu')">Mancanti Ohuhu</button>
+          <button class="filter-chip" id="wlFilterAll" onclick="updateWishlistText('all')">Tutti i Mancanti</button>
+        </div>
+        <div class="wishlist-box" id="wishlistText">Caricamento lista...</div>
+        <button class="btn-primary" onclick="copyWishlistToClipboard()">
+          <span>📋 Copia per WhatsApp / Note</span>
+        </button>
+        <button class="btn-secondary" onclick="window.print()">
+          <span>🖨️ Stampa Lista</span>
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- MODAL: Dettaglio & Note Pennarello -->
+  <div class="modal-overlay" id="detailModal" onclick="closeOnOverlay(event, 'detailModal')">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h2>Dettaglio Colore</h2>
+        <button class="modal-close" onclick="closeModal('detailModal')">✕</button>
+      </div>
+      <div class="modal-body">
+        <div class="detail-preview">
+          <div class="detail-swatch" id="detailSwatch"></div>
+          <div class="detail-title" id="detailTitle"></div>
+          <div class="detail-subtitle" id="detailSubtitle"></div>
+        </div>
+
+        <div style="margin: 15px 0;">
+          <label style="font-size: 0.78rem; font-weight: 700; color: var(--text-muted); text-transform: uppercase;">Stato di possesso:</label>
+          <div class="toggle-row" id="modalTwinToggles" style="margin-top: 6px;">
+            <button class="toggle-twin active" id="modalToggleTwin" onclick="toggleDetailStatus('al')">
+              <span>🖊️</span> <span>✓ Posseduto (Twin Marker)</span>
+            </button>
+          </div>
+          <div class="toggle-row" id="modalAcquaToggles" style="margin-top: 6px; display: none;">
+            <button class="toggle-acqua active" id="modalToggleAcqua" onclick="toggleDetailStatus('ac')">
+              <span>💧</span> <span>✓ Posseduto (Acqua Marker)</span>
+            </button>
+          </div>
+          <div class="toggle-row" id="modalOhuhuToggles" style="margin-top: 6px; display: none;">
+            <button class="toggle-ohuhu active" id="modalToggleOhuhu" onclick="toggleDetailOhuhuStatus()">
+              <span>🖍️</span> <span>✓ Posseduto (Ohuhu Oahu 320)</span>
+            </button>
+          </div>
+        </div>
+
+        <div style="margin-top: 15px;">
+          <label style="font-size: 0.78rem; font-weight: 700; color: var(--text-muted); text-transform: uppercase;">Note personali (es. doppione, set, usura):</label>
+          <textarea id="detailNotes" class="notes-area" placeholder="Scrivi qui eventuali note personali..."></textarea>
+        </div>
+
+        <button class="btn-primary" style="margin-top: 15px;" onclick="saveDetailNotes()">
+          <span>💾 Salva Note</span>
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- MODAL: Statistiche Complete -->
+  <div class="modal-overlay" id="statsModal" onclick="closeOnOverlay(event, 'statsModal')">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h2>📊 Riepilogo Inventario</h2>
+        <button class="modal-close" onclick="closeModal('statsModal')">✕</button>
+      </div>
+      <div class="modal-body">
+        <div id="statsFullDetails" style="line-height: 1.8; font-size: 0.92rem;">
+          <!-- Generated dynamically -->
+        </div>
+        <button class="btn-primary" style="margin-top: 18px;" onclick="closeModal('statsModal')">
+          <span>Chiudi</span>
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- MODAL: Opzioni & Backup -->
+  <div class="modal-overlay" id="optionsModal" onclick="closeOnOverlay(event, 'optionsModal')">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h2>⚙️ Opzioni & Backup</h2>
+        <button class="modal-close" onclick="closeModal('optionsModal')">✕</button>
+      </div>
+      <div class="modal-body">
+        <!-- Wi-Fi Sync Section -->
+        <div style="background: #eef7ff; border: 1.5px solid #b8daff; border-radius: 14px; padding: 14px; margin-bottom: 16px;">
+          <div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 6px;">
+            <strong style="color: #0056b3; font-size: 0.95rem; display: flex; align-items: center; gap: 6px;">
+              <span>📡</span> Sincronizzazione Wi-Fi Locale
+            </strong>
+            <span id="syncBadgeStatus" style="font-size: 0.75rem; font-weight: 700; padding: 3px 8px; border-radius: 99px; background: #6c757d; color: #fff;">In verifica...</span>
+          </div>
+          <p style="font-size: 0.82rem; color: #555; margin-bottom: 10px; line-height: 1.4;">
+            Mantiene aggiornati in tempo reale PC, Telefono e Tablet collegati allo stesso Wi-Fi di casa.
+          </p>
+          <div style="display: flex; gap: 8px; margin-bottom: 8px;">
+            <input type="text" id="syncServerInput" style="flex: 1; padding: 8px 10px; border-radius: 8px; border: 1px solid #ced4da; font-size: 0.85rem;" placeholder="http://192.168.1.11:8080">
+            <button class="btn-primary" style="padding: 8px 14px; font-size: 0.85rem; width: auto; white-space: nowrap;" onclick="saveSyncServerAndSync()">
+              🔄 Sincronizza
+            </button>
+          </div>
+          <p id="syncLastInfo" style="font-size: 0.75rem; color: #666; margin: 0;">Stato: inizializzazione...</p>
+        </div>
+
+        <div class="option-list">
+          <div class="option-item" onclick="toggleTheme()">
+            <span class="option-icon">🌓</span>
+            <div>
+              <h4>Tema Chiaro / Scuro</h4>
+              <p>Passa dalla modalità scura a quella chiara e viceversa.</p>
+            </div>
+          </div>
+
+          <div class="option-item" onclick="loadOriginalMarkings()">
+            <span class="option-icon">📷</span>
+            <div>
+              <h4>Ripristina spunte dalle tue foto</h4>
+              <p>Carica automaticamente tutti i colori che hai già segnato a penna sulle schede!</p>
+            </div>
+          </div>
+
+          <div class="option-item" onclick="exportBackup()">
+            <span class="option-icon">💾</span>
+            <div>
+              <h4>Esporta Backup (Salva Dati)</h4>
+              <p>Scarica un file con tutti i tuoi colori segnati per non perderli mai.</p>
+            </div>
+          </div>
+
+          <div class="option-item" onclick="triggerImportBackup()">
+            <span class="option-icon">📥</span>
+            <div>
+              <h4>Importa Backup</h4>
+              <p>Ripristina un file di backup salvato in precedenza.</p>
+            </div>
+            <input type="file" id="backupFileInput" accept=".json" style="display: none;" onchange="importBackupFile(event)">
+          </div>
+
+          <div class="option-item" onclick="openInstallGuide()">
+            <span class="option-icon">📱</span>
+            <div>
+              <h4>Come installare su Android</h4>
+              <p>Guida passo-passo per aggiungere l'app alla schermata home del telefono.</p>
+            </div>
+          </div>
+
+          <div class="option-item" onclick="confirmResetAll()" style="border-color: #ffd8d8; background: #fff5f5;">
+            <span class="option-icon">🗑️</span>
+            <div>
+              <h4 style="color: #c2284d;">Azzera tutte le spunte</h4>
+              <p>Cancella tutte le selezioni per ripartire da zero.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- MODAL: Guida Installazione Android -->
+  <div class="modal-overlay" id="installGuideModal" onclick="closeOnOverlay(event, 'installGuideModal')">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h2>📱 Installa su Telefono Android</h2>
+        <button class="modal-close" onclick="closeModal('installGuideModal')">✕</button>
+      </div>
+      <div class="modal-body" style="font-size: 0.9rem; line-height: 1.6;">
+        <p style="margin-bottom: 12px;">Puoi installare questa app sul tuo smartphone Honor / Android in due modi:</p>
+        
+        <div style="background: #fff3f5; padding: 12px; border-radius: 12px; border: 1px solid #ffccd5; margin-bottom: 12px;">
+          <strong style="color: #BE2846;">OPZIONE 1 (Consigliata): Scarica il file APK</strong>
+          <p style="color: #666; font-size: 0.82rem; margin: 4px 0 10px 0;">
+            Installa l'app nativa direttamente sul tuo telefono Honor:
+          </p>
+          <a href="DecoTime_Color_Chart.apk" download="DecoTime_Color_Chart.apk" style="display:block; text-align:center; text-decoration:none; background:#BE2846; color:#fff; padding:10px 14px; border-radius:8px; font-weight:700; font-size:0.9rem;">
+            📥 Scarica DecoTime_Color_Chart.apk
+          </a>
+        </div>
+
+        <div style="background: #f8f9fd; padding: 12px; border-radius: 12px; border: 1px solid var(--border); margin-bottom: 10px;">
+          <strong>OPZIONE 2: Aggiungi alla Schermata Home dal Browser</strong>
+          <p style="color: var(--text-muted); font-size: 0.82rem; margin-top: 4px;">
+            Su Chrome o Browser Honor tocca i <b>3 puntini ⋮</b> in alto a destra e seleziona <b>"Aggiungi a schermata Home"</b> o <b>"Installa app"</b>.
+          </p>
+        </div>
+
+        <button class="btn-primary" onclick="closeModal('installGuideModal')">
+          <span>Chiudi Guida</span>
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Toast Notification -->
+  <div class="toast" id="toast">
+    <span id="toastIcon">✅</span>
+    <span id="toastMsg">Operazione completata</span>
+  </div>
+
+  <!-- Scripts -->
+  <script src="data.js"></script>
+  <script src="ohuhu_data.js"></script>
+  <script src="app.js"></script>
+  <script>
+    if ('serviceWorker' in navigator) {
+      navigator.serviceWorker.register('sw.js').catch(err => console.log('SW register error', err));
+    }
+  </script>
+</body>
+</html>

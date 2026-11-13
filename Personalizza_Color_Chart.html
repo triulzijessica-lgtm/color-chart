@@ -1,0 +1,509 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color Chart 500 Colori - Modello Stampabile</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,600;1,400&family=Alex+Brush&family=Montserrat:wght@300;400;500&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary: #d46a84;
+            --primary-light: #fbebf0;
+            --text-dark: #2c2c2c;
+            --border-color: #555555;
+            --border-width: 1px;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Montserrat', sans-serif;
+            background-color: #f3f4f6;
+            color: #333;
+            min-height: 100vh;
+        }
+
+        /* Controls Panel (hidden in print) */
+        .controls-panel {
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            background: #ffffff;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+            border-bottom: 1px solid #e5e7eb;
+            padding: 16px 24px;
+        }
+
+        .controls-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: space-between;
+            gap: 16px;
+        }
+
+        .panel-title {
+            font-size: 1.15rem;
+            font-weight: 600;
+            color: #1f2937;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .controls-grid {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            gap: 14px;
+        }
+
+        .control-group {
+            display: flex;
+            flex-direction: column;
+            gap: 4px;
+        }
+
+        .control-group label {
+            font-size: 0.75rem;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            color: #6b7280;
+        }
+
+        .control-group input,
+        .control-group select {
+            padding: 7px 12px;
+            border: 1px solid #d1d5db;
+            border-radius: 6px;
+            font-size: 0.88rem;
+            color: #1f2937;
+            background: #fff;
+            outline: none;
+            transition: border-color 0.15s;
+        }
+
+        .control-group input:focus,
+        .control-group select:focus {
+            border-color: var(--primary);
+            box-shadow: 0 0 0 2px rgba(212, 106, 132, 0.2);
+        }
+
+        .checkbox-group {
+            display: flex;
+            align-items: center;
+            gap: 6px;
+            margin-top: 18px;
+            cursor: pointer;
+            font-size: 0.85rem;
+            color: #374151;
+            user-select: none;
+        }
+
+        .checkbox-group input {
+            accent-color: var(--primary);
+            width: 16px;
+            height: 16px;
+            cursor: pointer;
+        }
+
+        .btn-print {
+            background: linear-gradient(135deg, #d46a84, #be4f6b);
+            color: #ffffff;
+            border: none;
+            padding: 10px 22px;
+            font-size: 0.95rem;
+            font-weight: 600;
+            border-radius: 8px;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            transition: transform 0.1s, box-shadow 0.2s;
+            box-shadow: 0 4px 12px rgba(212, 106, 132, 0.35);
+        }
+
+        .btn-print:hover {
+            transform: translateY(-1px);
+            box-shadow: 0 6px 16px rgba(212, 106, 132, 0.45);
+        }
+
+        .btn-print:active {
+            transform: translateY(1px);
+        }
+
+        /* Printable Sheet View */
+        .sheets-container {
+            padding: 30px 15px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 30px;
+        }
+
+        .page-sheet {
+            width: 210mm;
+            min-height: 297mm;
+            height: 297mm;
+            background: #ffffff;
+            padding: 12mm 14mm 10mm 14mm;
+            box-shadow: 0 8px 30px rgba(0, 0, 0, 0.1);
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            page-break-after: always;
+            box-sizing: border-box;
+        }
+
+        /* Header */
+        .sheet-header {
+            text-align: center;
+            margin-bottom: 6mm;
+        }
+
+        .header-title-container {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            gap: 8px;
+            position: relative;
+        }
+
+        .sheet-title {
+            font-family: 'Playfair Display', Georgia, serif;
+            font-size: 26pt;
+            font-weight: 500;
+            color: #2b2b2b;
+            letter-spacing: 0.5px;
+            line-height: 1.1;
+        }
+
+        .flower-icon {
+            display: inline-block;
+            width: 18px;
+            height: 18px;
+            background: radial-gradient(circle at center, #d86884 35%, transparent 36%),
+                        radial-gradient(circle at 50% 15%, #f69cb1 25%, transparent 26%),
+                        radial-gradient(circle at 85% 40%, #f69cb1 25%, transparent 26%),
+                        radial-gradient(circle at 70% 85%, #f69cb1 25%, transparent 26%),
+                        radial-gradient(circle at 30% 85%, #f69cb1 25%, transparent 26%),
+                        radial-gradient(circle at 15% 40%, #f69cb1 25%, transparent 26%);
+            border-radius: 50%;
+            margin-left: 2px;
+        }
+
+        .sheet-subtitle {
+            font-family: 'Alex Brush', 'Brush Script MT', cursive;
+            font-size: 17pt;
+            color: #4a4a4a;
+            margin-top: 1.5mm;
+            letter-spacing: 0.5px;
+        }
+
+        /* Grid */
+        .sheet-grid-wrapper {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        .sheet-grid {
+            display: grid;
+            width: 100%;
+            height: 100%;
+            justify-content: space-between;
+            align-content: space-between;
+        }
+
+        .swatch-item {
+            display: flex;
+            flex-direction: column;
+            position: relative;
+        }
+
+        .swatch-box {
+            width: 100%;
+            height: 100%;
+            border: var(--border-width) solid var(--border-color);
+            background: #ffffff;
+            box-sizing: border-box;
+            border-radius: 1px;
+            position: relative;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .swatch-number {
+            position: absolute;
+            bottom: 2px;
+            font-size: 6pt;
+            color: #aaa;
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 500;
+            pointer-events: none;
+        }
+
+        .code-box {
+            border: var(--border-width) solid var(--border-color);
+            border-top: none;
+            height: 4.5mm;
+            width: 100%;
+            background: #fafafa;
+        }
+
+        /* Footer */
+        .sheet-footer {
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+            gap: 6px;
+            padding-top: 4mm;
+            font-family: 'Playfair Display', Georgia, serif;
+            font-style: italic;
+            font-size: 8pt;
+            color: #8c8c8c;
+        }
+
+        .footer-flower {
+            width: 7px;
+            height: 7px;
+            border-radius: 50%;
+            background: #e5879e;
+        }
+
+        /* Print Settings */
+        @media print {
+            body {
+                background: none;
+                margin: 0;
+                padding: 0;
+            }
+
+            .controls-panel {
+                display: none !important;
+            }
+
+            .sheets-container {
+                padding: 0;
+                gap: 0;
+            }
+
+            .page-sheet {
+                box-shadow: none;
+                margin: 0;
+                width: 210mm;
+                height: 297mm;
+                page-break-after: always;
+                page-break-inside: avoid;
+                -webkit-print-color-adjust: exact;
+                print-color-adjust: exact;
+            }
+
+            @page {
+                size: A4 portrait;
+                margin: 0;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Controls Panel -->
+    <header class="controls-panel">
+        <div class="controls-container">
+            <div class="panel-title">
+                <span>🎨 Personalizza Color Chart (500 Colori)</span>
+            </div>
+
+            <div class="controls-grid">
+                <div class="control-group">
+                    <label>Formato / Pagine</label>
+                    <select id="layoutSelect" onchange="renderSheets()">
+                        <option value="10" selected>10 Fogli (50 colori/foglio: 5x10 - Riquadri Grandi per Nomi)</option>
+                        <option value="5">5 Fogli (100 colori/foglio: 10x10)</option>
+                        <option value="2">2 Fogli (250 colori/foglio: 10x25)</option>
+                        <option value="1">1 Foglio (500 colori: 20x25)</option>
+                    </select>
+                </div>
+
+                <div class="control-group">
+                    <label>Titolo</label>
+                    <input type="text" id="titleInput" value="Alcool e Acqua Marker" oninput="updateTexts()">
+                </div>
+
+                <div class="control-group">
+                    <label>Sottotitolo</label>
+                    <input type="text" id="subtitleInput" value="500 colori" oninput="updateTexts()">
+                </div>
+
+                <div class="control-group">
+                    <label>Bordo Riquadri</label>
+                    <select id="borderColorSelect" onchange="updateStyles()">
+                        <option value="#555555" selected>Grigio medio (come originale)</option>
+                        <option value="#888888">Grigio chiaro delicato</option>
+                        <option value="#222222">Nero marcato</option>
+                    </select>
+                </div>
+
+                <label class="checkbox-group">
+                    <input type="checkbox" id="numberingCheck" onchange="renderSheets()">
+                    <span>Mostra numeri (1 - 500)</span>
+                </label>
+
+                <label class="checkbox-group">
+                    <input type="checkbox" id="codeBoxCheck" onchange="renderSheets()">
+                    <span>Spazio codice colore sotto</span>
+                </label>
+            </div>
+
+            <button class="btn-print" onclick="window.print()">
+                <span>🖨️ Stampa o Salva PDF</span>
+            </button>
+        </div>
+    </header>
+
+    <!-- Sheets Container -->
+    <main class="sheets-container" id="sheetsContainer">
+        <!-- Rendered dynamically -->
+    </main>
+
+    <script>
+        const TOTAL_COLORS = 500;
+
+        function updateStyles() {
+            const color = document.getElementById('borderColorSelect').value;
+            document.documentElement.style.setProperty('--border-color', color);
+        }
+
+        function updateTexts() {
+            const title = document.getElementById('titleInput').value || 'Alcool e Acqua Marker';
+            const subtitle = document.getElementById('subtitleInput').value || '500 colori';
+            const layout = parseInt(document.getElementById('layoutSelect').value, 10);
+
+            document.querySelectorAll('.sheet-title').forEach(el => el.textContent = title);
+
+            document.querySelectorAll('.page-sheet').forEach((sheet, idx) => {
+                const subEl = sheet.querySelector('.sheet-subtitle');
+                if (subEl) {
+                    if (layout > 1) {
+                        const start = idx * Math.ceil(TOTAL_COLORS / layout) + 1;
+                        const end = Math.min((idx + 1) * Math.ceil(TOTAL_COLORS / layout), TOTAL_COLORS);
+                        subEl.textContent = `${subtitle} (${start} - ${end})`;
+                    } else {
+                        subEl.textContent = subtitle;
+                    }
+                }
+            });
+        }
+
+        function renderSheets() {
+            const container = document.getElementById('sheetsContainer');
+            container.innerHTML = '';
+
+            const layout = parseInt(document.getElementById('layoutSelect').value, 10);
+            const title = document.getElementById('titleInput').value || 'Alcool e Acqua Marker';
+            const subtitle = document.getElementById('subtitleInput').value || '500 colori';
+            const showNumbers = document.getElementById('numberingCheck').checked;
+            const showCodeBox = document.getElementById('codeBoxCheck').checked;
+
+            let numPages, cols, rowsPerPage;
+
+            if (layout === 10) {
+                numPages = 10;
+                cols = 5;
+                rowsPerPage = 10;
+            } else if (layout === 1) {
+                numPages = 1;
+                cols = 20;
+                rowsPerPage = 25;
+            } else if (layout === 2) {
+                numPages = 2;
+                cols = 10;
+                rowsPerPage = 25;
+            } else { // 5 pages
+                numPages = 5;
+                cols = 10;
+                rowsPerPage = 10;
+            }
+
+            let currentColor = 1;
+
+            for (let p = 0; p < numPages; p++) {
+                const sheet = document.createElement('div');
+                sheet.className = 'page-sheet';
+
+                const startNum = currentColor;
+                const endNum = Math.min(startNum + (cols * rowsPerPage) - 1, TOTAL_COLORS);
+                const subText = numPages > 1 ? `${subtitle} (${startNum} - ${endNum})` : subtitle;
+
+                sheet.innerHTML = `
+                    <div class="sheet-header">
+                        <div class="header-title-container">
+                            <h1 class="sheet-title">${title}</h1>
+                            <span class="flower-icon"></span>
+                        </div>
+                        <div class="sheet-subtitle">${subText}</div>
+                    </div>
+                    <div class="sheet-grid-wrapper">
+                        <div class="sheet-grid" style="grid-template-columns: repeat(${cols}, 1fr); grid-template-rows: repeat(${rowsPerPage}, 1fr); gap: ${layout === 1 ? '2.2mm 1.8mm' : layout === 2 ? '2.5mm 4mm' : layout === 10 ? '3.5mm 5mm' : '4.5mm 4.5mm'};">
+                        </div>
+                    </div>
+                    <div class="sheet-footer">
+                        <span class="footer-flower"></span>
+                        <span>Il mio mondo a colori!</span>
+                    </div>
+                `;
+
+                const grid = sheet.querySelector('.sheet-grid');
+
+                for (let i = 0; i < cols * rowsPerPage; i++) {
+                    const item = document.createElement('div');
+                    item.className = 'swatch-item';
+
+                    if (currentColor <= TOTAL_COLORS) {
+                        if (showCodeBox || layout === 10) {
+                            item.innerHTML = `
+                                <div class="swatch-box" style="flex: 1;">
+                                    ${showNumbers ? `<span class="swatch-number">${currentColor}</span>` : ''}
+                                </div>
+                                <div class="code-box" style="height: ${layout === 10 ? '7.5mm' : '4.5mm'};"></div>
+                            `;
+                        } else {
+                            item.innerHTML = `
+                                <div class="swatch-box" style="flex: 1;">
+                                    ${showNumbers ? `<span class="swatch-number">${currentColor}</span>` : ''}
+                                </div>
+                            `;
+                        }
+                        currentColor++;
+                    } else {
+                        // Empty spacer if not all slots filled on last page
+                        item.style.visibility = 'hidden';
+                    }
+
+                    grid.appendChild(item);
+                }
+
+                container.appendChild(sheet);
+            }
+
+            updateStyles();
+        }
+
+        // Initialize
+        renderSheets();
+    </script>
+</body>
+</html>

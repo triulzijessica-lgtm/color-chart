@@ -1,0 +1,22 @@
+# Android build & cache
+.gradle/
+**/build/
+**/.gradle/
+android-app/.gradle/
+android-app/app/build/
+*.iml
+.idea/
+local.properties
+captures/
+.externalNativeBuild/
+.cxx/
+
+# Node & npm
+node_modules/
+npm-debug.log*
+
+# OS & Temp
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini

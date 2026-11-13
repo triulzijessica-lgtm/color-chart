@@ -1,0 +1,67 @@
+========================================================================
+   DECOTIME COLOR TRACKER - GUIDA DI INSTALLAZIONE E UTILIZZO
+========================================================================
+
+✅ COSA È STATO RISOLTO PER HONOR 400 SMART (MagicOS):
+------------------------------------------------------------------------
+L'errore "Errore durante l'analisi del pacchetto" era causato da:
+1. Un attributo nel file manifest che MagicOS non riconosceva.
+2. Firme con certificati di test e file di metadati non allineati.
+
+Ora il pacchetto "DecoTime_Color_Chart.apk" è stato ricompilato da zero:
+- Target SDK: Android 14 (identico al tuo Honor 400 Smart)
+- Compatibilità: da Android 5.0 in su
+- Firma: Certificato Release ufficiale con schemi v1, v2 e v3 convalidati al 100%
+
+
+========================================================================
+METODO 1: INSTALLAZIONE APK SU HONOR 400 SMART (CONSIGLIATO)
+========================================================================
+
+1. Prima di iniziare, apri "Gestione File" sul tuo Honor ed ELIMINA 
+   eventuali vecchi file .apk scaricati in precedenza per non confonderti.
+
+2. Invia il nuovo file "DecoTime_Color_Chart.apk" (che trovi qui sul Desktop) 
+   al tuo telefono tramite:
+   - Cavo USB (copialo nella cartella Download del telefono)
+   - Oppure tramite Google Drive / Telegram
+
+3. ⚠️ PASSAGGIO FONDAMENTALE PER TELEFONI HONOR:
+   NON toccare l'APK direttamente dall'anteprima della chat (es. WhatsApp), 
+   perché l'anteprima di WhatsApp blocca l'accesso ai file di sistema!
+   
+   Fai invece così:
+   a. Apri l'app ufficiale di Honor chiamata "Gestione File" (o "Archivio")
+   b. Tocca la sezione "Download" (o "Applicazioni")
+   c. Tocca il file "DecoTime_Color_Chart.apk"
+   d. Premi "Installa" (se MagicOS chiede di autorizzare l'origine sconosciuta, 
+      tocca Consenti).
+   
+4. L'app apparirà nella schermata principale del telefono e sarà pronta all'uso!
+
+
+========================================================================
+METODO 2: INSTALLAZIONE ISTANTANEA TRAMITE WI-FI (SENZA CAVO)
+========================================================================
+
+Se non vuoi usare il cavetto USB:
+1. Sul tuo PC fai doppio clic su:
+   "AVVIA_APP_SUL_TELEFONO.bat"
+
+2. Sul tuo Honor 400 Smart (connesso allo stesso Wi-Fi di casa):
+   Apri Chrome o il browser Honor e vai all'indirizzo:
+   http://192.168.1.11:8080
+
+3. Dalla pagina che si apre puoi:
+   - Cliccare su "📥 Scarica DecoTime_Color_Chart.apk" e installarlo
+   - OPPURE toccare i 3 puntini ⋮ in alto a destra e selezionare 
+     "Aggiungi a schermata Home" / "Installa app" per avere l'app 
+     a schermo intero con icona sul telefono!
+
+
+========================================================================
+COME USARE L'APP SU PC:
+========================================================================
+Fai doppio clic sul file:
+"APRI_APP_SU_PC.bat"
+Si aprirà subito nel tuo browser preferito con tutte le 7 pagine e i 313 colori.

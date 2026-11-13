@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#C2284D"/>
+      <stop offset="50%" stop-color="#8E1F40"/>
+      <stop offset="100%" stop-color="#3A1024"/>
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-opacity="0.3"/>
+    </filter>
+  </defs>
+  <rect width="512" height="512" rx="115" fill="url(#bgGrad)"/>
+  <circle cx="256" cy="256" r="185" fill="#FFFFFF" opacity="0.12"/>
+  
+  <!-- Marker Nib 1 (Alcool - Wine/Rose) -->
+  <g transform="translate(190, 160) rotate(-25)">
+    <rect x="-24" y="0" width="48" height="150" rx="10" fill="#FFFFFF" filter="url(#shadow)"/>
+    <path d="M-20,0 L20,0 L14,-45 L-14,-45 Z" fill="#E67A7D"/>
+    <path d="M-10,-45 L10,-45 L0,-75 Z" fill="#BE2846"/>
+    <rect x="-24" y="100" width="48" height="18" fill="#BE2846"/>
+    <text x="0" y="80" font-family="'Segoe UI', Roboto, sans-serif" font-weight="900" font-size="20" fill="#BE2846" text-anchor="middle">AL</text>
+  </g>
+
+  <!-- Marker Nib 2 (Acqua - Teal/Cyan) -->
+  <g transform="translate(322, 160) rotate(25)">
+    <rect x="-24" y="0" width="48" height="150" rx="10" fill="#FFFFFF" filter="url(#shadow)"/>
+    <path d="M-20,0 L20,0 L14,-45 L-14,-45 Z" fill="#6AC9BD"/>
+    <path d="M-10,-45 L10,-45 L0,-75 Z" fill="#0099C4"/>
+    <rect x="-24" y="100" width="48" height="18" fill="#0099C4"/>
+    <text x="0" y="80" font-family="'Segoe UI', Roboto, sans-serif" font-weight="900" font-size="20" fill="#0099C4" text-anchor="middle">AC</text>
+  </g>
+
+  <!-- Color Swatches Row -->
+  <circle cx="176" cy="390" r="22" fill="#E67E22" stroke="#FFFFFF" stroke-width="4"/>
+  <circle cx="230" cy="390" r="22" fill="#38A141" stroke="#FFFFFF" stroke-width="4"/>
+  <circle cx="284" cy="390" r="22" fill="#2972B6" stroke="#FFFFFF" stroke-width="4"/>
+  <circle cx="338" cy="390" r="22" fill="#8C246E" stroke="#FFFFFF" stroke-width="4"/>
+</svg>
